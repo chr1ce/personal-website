@@ -1,13 +1,121 @@
-h1 {
-    color:rgb(9, 81, 163);
-    font-family:'Times New Roman', Times, serif;
+html {
+    scroll-behavior: smooth;
 }
 body {
-    background-color: rgb(190, 213, 255);
+    background-color: rgb(240, 240, 240);
 }
+ul {
+    list-style-type: none;
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+section {
+    margin: 24px;
+}
+
+/* HEADINGS and TEXT */
+h1 {
+    color:rgb(41, 41, 41);
+    font-family: "Sedan", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.h1 {
+    color:rgb(41, 41, 41);
+    font-family: "Sedan", serif;
+    font-size: 36px;
+    font-weight: 400;
+    font-style: normal;
+}
+h2 {
+    color:rgb(41, 41, 41);
+    font-family: "Sedan", serif;
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+}
+.h2 {
+    color:rgb(41, 41, 41);
+    font-family: "Sedan", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.h3 {
+    color:rgb(41, 41, 41);
+    padding-right: 8px;
+    font-family: "Sedan", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 .text {
     color: black;
+    font-size: 20px;
 }
+.small-text {
+    color: black;
+    font-size: 16px;
+}
+
 .header {
-    color:rgb(9, 81, 163);
+    position: fixed;
+    top: 0px;
+    left: 24px;
+    height: 55px;
 }
+
+.ubuntu-sans-mono {
+    font-family: "Ubuntu Sans Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+/* LIST elements */
+li {
+    background-color: rgb(206, 230, 252);
+    float: left;
+    opacity: 86%;
+}
+a:link {
+    color: black;
+    text-decoration: none;
+}
+a:visited {
+    color: black;
+    text-decoration: line-through;
+}
+a:hover {
+    color:rgb(129, 129, 129);
+}
+a:active {
+    text-decoration: line-through;
+}
+
+/* CONTAINERS */
+.centered-container {
+    width: 500;
+    height: 50px;
+    margin: 50px;
+    display: flex;
+    text-align: center;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+.main-container {
+    width: 500;
+    height: fit-content;
+    margin: 48px;
+    display: flex;
+    text-align: left;
+}
+.intro-container {
+    width: 500;
+    height: fit-content;
+    padding-left: 24px;
+    display: flex;
+    text-align: left;
+}
+
