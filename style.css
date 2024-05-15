@@ -25,6 +25,7 @@ section {
 /* HEADINGS and TEXT */
 h1 {
     color:rgb(41, 41, 41);
+    font-size: 36px;
     font-family: "Sedan", serif;
     font-weight: 400;
     font-style: normal;
@@ -53,14 +54,14 @@ h2 {
 h4 {
     color: rgb(41, 41, 41);
     font-family: "Sedan", sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 600;
     font-style: normal;
 }
 .h4 {
     color: rgb(41, 41, 41);
     font-family: "Sedan", sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 600;
     font-style: normal;
 }
@@ -89,10 +90,10 @@ header {
 }
 .footer {
     background-color: rgb(177, 217, 255);
+    display: flex;
     padding: 30px;
     padding-top: 20px;
-    margin-bottom: 50px;
-
+    margin-bottom: 30px; 
 }
 
 
@@ -146,8 +147,8 @@ a.h:active {
     height: fit-content;
     width: fit-content;
     margin: 2rem;
-    display: flex;
-    text-align: left;
+    display: grid;
+    grid-template-columns: 20% 80%;
 }
 .intro-container {
     width: 500;
@@ -172,4 +173,3 @@ a.h:active {
     padding-top: 20px;
 
 }
-
