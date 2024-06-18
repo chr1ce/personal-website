@@ -105,7 +105,8 @@ li {
 }
 a:link {
     color: black;
-    text-decoration: none;
+    text-decoration: underline;
+    text-decoration-color: rgb(177, 217, 255);
 }
 a:visited {
     color: black;
@@ -119,7 +120,8 @@ a:active {
 }
 a.h:link {
     color:rgb(41, 41, 41);
-    text-decoration: none;
+    text-decoration: underline;
+    text-decoration-color: rgb(177, 217, 255);
 }
 a.h:visited {
     color: rgb(41, 41, 41);
@@ -149,6 +151,9 @@ a.h:active {
     margin: 4rem;
     display: grid;
     grid-template-columns: 20% 80%;
+}
+.grid-container {
+    display: grid;
 }
 .intro-container {
     width: 500;
