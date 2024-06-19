@@ -1,0 +1,189 @@
+#c {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    z-index: -1;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: rgb(255, 255, 255);
+}
+p {
+    line-height: 24px;
+    margin-bottom: 30px;
+    color: black;
+    font-family: "Sedan", sans-serif;
+    font-weight: 200;
+    font-size: 16px;
+}
+ul {
+    list-style-type: none;
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+section {
+    margin: 2rem;
+}
+
+/* HEADINGS and TEXT */
+h1 {
+    color:rgb(41, 41, 41);
+    font-size: 36px;
+    font-family: "Sedan", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.h1 {
+    color:rgb(41, 41, 41);
+    font-family: "Sedan", serif;
+    font-size: 36px;
+    font-weight: 400;
+    font-style: normal;
+}
+h2 {
+    color:rgb(41, 41, 41);
+    font-family: "Sedan", serif;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: normal;
+}
+.h3 {
+    color: black;
+    padding-right: 16px;
+    font-family: "Sedan", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+h4 {
+    color: rgb(41, 41, 41);
+    font-family: "Sedan", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    font-style: normal;
+}
+.h4 {
+    color: rgb(41, 41, 41);
+    font-family: "Sedan", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    font-style: normal;
+}
+.text {
+    color: black;
+    font-family: "Sedan", sans-serif;
+    font-weight: 200;
+    font-size: 16px;
+}
+.small-text {
+    color: black;
+    font-size: 16px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 55px;
+}
+.header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 55px;
+}
+.footer {
+    background-color: rgb(177, 217, 255);
+    display: flex;
+    padding: 30px;
+    padding-top: 20px;
+    margin-bottom: 30px; 
+}
+
+
+/* LIST elements */
+li {
+    background-color: rgb(177, 217, 255);
+    float: left;
+    opacity: 86%;
+}
+a:link {
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: rgb(177, 217, 255);
+}
+a:visited {
+    color: black;
+    text-decoration: line-through;
+}
+a:hover {
+    background-color:rgb(134, 173, 224);
+}
+a:active {
+    text-decoration: line-through;
+}
+a.h:link {
+    color:rgb(41, 41, 41);
+    text-decoration: underline;
+    text-decoration-color: rgb(177, 217, 255);
+}
+a.h:visited {
+    color: rgb(41, 41, 41);
+    text-decoration: line-through;
+}
+a.h:hover {
+    background-color:rgb(134, 173, 224);
+}
+a.h:active {
+    text-decoration: line-through;
+}
+
+/* CONTAINERS */
+.centered-container {
+    width: 500;
+    height: 50px;
+    margin: 50px;
+    display: flex;
+    text-align: center;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+.main-container {
+    width: 500;
+    height: fit-content;
+    width: fit-content;
+    margin: 4rem;
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+.grid-container {
+    display: grid;
+}
+.intro-container {
+    width: 500;
+    height: fit-content;
+    padding-left: 24px;
+    display: flex;
+    text-align: center;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+.right_container {
+    align-content: right;
+}
+.icon-container {
+    height: 100%;
+    width: 20%;
+    position: fixed;
+    right: 0;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+
+}
