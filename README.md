@@ -1,2 +1,11 @@
 # personal-website
-A personal website to express web design creativity and hold general information about Chris Hyde.
+
+A personal website created to express web design creativity and learn about web development frameworks/workflows.
+
+Currently hosted through GitHub Pages.
+
+### Dependencies
+
++ three.js library (3D animation)
++ Vite for local testing and the final build in ./dist
+
