@@ -9,7 +9,7 @@ const camera = new THREE.PerspectiveCamera( 70, width / height, 0.01, 10 );
 camera.position.z = 1;
 
 const scene = new THREE.Scene();
-scene.background = new THREE.Color('white')
+scene.background = new THREE.Color('rgb(230, 242, 255)')
 
 const radius = 0.2;  
 const detail = 1;  
