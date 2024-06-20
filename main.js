@@ -27,20 +27,20 @@ renderer.setSize( width, height );
 renderer.setAnimationLoop( animate );
 document.body.appendChild( renderer.domElement );
 
+{
+    const color = 0xFFFFFF;
+    const intensity = 3;
+    const light = new THREE.DirectionalLight(color, intensity);
+    light.position.set(-1, 2, 5);
+    scene.add(light);
+}
+
 // animation
 
 function animate( time ) {
 
 	mesh.rotation.x = time / 2000;
 	mesh.rotation.y = time / 1000;
-
-	{
-    const color = 0x555555;
-    const intensity = 1;
-    const light = new THREE.DirectionalLight(color, intensity);
-    light.position.set(-1, 2, 5);
-    scene.add(light);
-    }
 
 	renderer.render( scene, camera );
 
