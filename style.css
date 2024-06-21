@@ -144,20 +144,11 @@ a.h:active {
 }
 
 /* CONTAINERS */
-.centered-container {
-    width: 500;
-    height: 50px;
-    margin: 50px;
-    display: flex;
-    text-align: center;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
-}
 .main-container {
-    width: 500;
     height: fit-content;
-    width: fit-content;
-    margin: 4rem;
+    max-width: 100%;
+    padding: 2rem;
+    margin: 5rem;
     display: grid;
     grid-template-columns: 20% 80%;
 }
@@ -165,16 +156,12 @@ a.h:active {
     display: grid;
 }
 .intro-container {
-    width: 500;
+    width: 100%;
     height: fit-content;
-    padding-left: 24px;
     display: flex;
     text-align: center;
     justify-content: center; /* Center horizontally */
     align-items: center; /* Center vertically */
-}
-.right_container {
-    align-content: right;
 }
 .icon-container {
     height: 100%;
