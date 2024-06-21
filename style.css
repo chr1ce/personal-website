@@ -89,7 +89,7 @@ header {
     position: fixed;
     top: 0;
     right: 0;
-    height: 2%;
+    height: 55px;
 }
 .header {
     position: fixed;
@@ -154,6 +154,8 @@ a.h:active {
 }
 .grid-container {
     display: grid;
+    column-gap: 2rem;
+    row-gap: 1rem;
 }
 .intro-container {
     width: 100%;
