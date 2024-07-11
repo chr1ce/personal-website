@@ -1,12 +1,28 @@
 import * as THREE from 'three';
 
-const width = window.innerWidth, height = window.innerHeight;
+// canvas creation and window resize handling
+
+var width = window.innerWidth, height = window.innerHeight;
 const canvas = document.querySelector('#c'); 
+
+window.addEventListener( 'resize', onWindowResize, false );
+
+function onWindowResize(){
+
+    camera.aspect = window.innerWidth / window.innerHeight;
+    camera.updateProjectionMatrix();
+
+    renderer.setSize( window.innerWidth, window.innerHeight );
+
+}
 
 // init
 
 const camera = new THREE.PerspectiveCamera( 70, width / height, 0.01, 10 );
 camera.position.z = 1;
+camera.position.y = 0;
+camera.position.x = 0;
+
 
 const scene = new THREE.Scene();
 scene.background = new THREE.Color('rgb(230, 242, 255)')
@@ -41,6 +57,7 @@ function animate( time ) {
 
 	mesh.rotation.x = time / 2000;
 	mesh.rotation.y = time / 1000;
+	
 
 	renderer.render( scene, camera );
 
