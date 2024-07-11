@@ -11,6 +11,6 @@ Currently hosted through GitHub Pages.
 
 ### TODO:
 
-+ Phone screen compatibility
++ Phone screen compatibility (ascii art too large for phones)
 + More unique animation
 + Blender model
