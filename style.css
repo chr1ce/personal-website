@@ -115,7 +115,7 @@ li {
 a:link {
     color: black;
     text-decoration: underline;
-    text-decoration-color: rgb(177, 217, 255);
+    text-decoration-color: black;
 }
 a:visited {
     color: black;
@@ -148,9 +148,8 @@ a.h:active {
     height: fit-content;
     max-width: 100%;
     padding: 2rem;
-    margin: 5rem;
-    display: grid;
-    grid-template-columns: 20% 80%;
+    margin: 5vw;
+    display: flex;
 }
 .grid-container {
     display: grid;
