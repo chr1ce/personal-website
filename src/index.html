@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>Chris Hyde</title>
+        <link rel="shortcut icon" type="image/jpg" href="./images/jiyuu.png"/>
+
+        <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <!-- Use script -->
+    <script type="module" src="./main.js"></script>
+
+    <body style="background-color: rgb(230, 242, 255);">
+        <div class="intro-container" style="background-color: rgb(154, 203, 248);">
+            <h1>
+                Chris Hyde
+            </h1>
+        </div>
+        <div class="intro-container" style="position: sticky; top: 0;">
+            <nav>
+                <div id="list" aria-expanded="false">
+                    <ul>
+                        <li class="h3"><a href="#about">about</a></li>
+                        <li class="h3"><a href="#projects">projects</a></li>
+                        <li class="h3"><a href="#footer">contact</a></li>
+                        <li class="h3"><a href="./blog/index.html">weblog</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>    
+        <div class="intro-container">
+            <p class="text">
+                AI | Graphics
+            </p>
+        </div>
+        <div style="display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                    text-align: center;
+                    margin-left: 15vw;
+                    margin-right: 15vw;
+                    width: 65%;
+                    overflow: hidden;">
+            <pre style="float: left; max-width: 100%;" class="small-text">                                                                                                
+                                 -                                 
+                                 =%%%-                 #%%#        
+                                :%%%%%%               ~%%%%%#      
+                               %%%%%%%%%%#           =%%%%%%%%%%%  
+  **+==#%%%%%%%%%%%%%%%%%%%%%%%%%#+==+*#%%:         :%%%%%%%%%%%%% 
+        %%%%%%%%#       %%%%%%%%%                  #%%%%%%%%%%%-   
+        %%%%%%%%#       %%%%%%%%%                -%%%%%%%%%%:      
+        %%%%%%%%#       %%%%%%%%%               ~%%%%%%%%#         
+        #########       #########              #######             
+        #########-      #########            +####*-               
+        #########-      #########          ~####                   
+        #########:      #########        :#~           ####+       
+        #########~      #########                     *#######*    
+        #########=      #########   *##              *###########~ 
+        *********=      *********  ~*****           *************+ 
+        *********=      *********+********~        ************~   
+~~====- *********~ ==~  ************+*******     ***********=      
+        *********~      ********+               **********+        
+        *********:      ********+             +********~           
+        *********-      ********+           ~********-             
+        *********       ********+          *******                 
+       -++++++++~       ++++++++=        +++++          +++-       
+       ~++++++++-       ++++++++=      +++             +++++++=    
+       =++++++++        ++++++++=                     +++++++++++: 
+       ++++++++=        ++++++++=                    +++++++++++++~
+       ++++++++         ++++++++=                   ~+++++++++++:  
+      -+++++++~         ++++++++=                  =++++++++++-    
+      =+++++++          ++++++++=                 ++++++++++~      
+     :=======-          =========                ==========        
+     =======:           ========~              -=========:         
+    -======~            ========~             :========:           
+    ======              ========~           -=========             
+   :====~               ========~         ~=======~                
+   ====:                ========~       -=======:                  
+  ~~~                   ~~~~~~~~~     ~~~~~~:                      
+ :~-                    ~~~~~~~:    ~~~~~-                         
+
+            </pre>
+            <canvas id="c"></canvas>
+            <pre style="float: right; max-width: 100%;" class="small-text">
+                     %%%%%#+:-                   
+                     %%%%%%%%%#:                 
+                     %%%%%%%%*                   
+                    :%%%%%%+           :+        
+        :*~         ~%%%%%             %%#       
+        :%%%%%+:    *%%*             %%%%%%%     
+        :######################################   
+        :#######*                     #########*- 
+        :#######*                     ########:   
+        :#######*                     ########:   
+        :#######+                     ########:   
+        -#######+                     ########:   
+        -*******+                     ********:   
+        -*************************************:   
+        -*******+                     ********-   
+        -*******+                     ********-   
+        -*******+                     ********-   
+        -*******=                     ********-   
+        -+++++++=                     ++++++++-   
+        -+++++++=                     ++++++++-   
+        -+++++++=                     ++++++++-   
+        -+++++++++++++++++++++++++++++++++++++-   
+        -+++++++=                     ++++++++-   
+        -+++++++=                     ++++++++-   
+        -+++++++=                     ++++++++-   
+        -=======~                     ========-   
+        -=======~                     ========-   
+        -=======~                     ========-   
+        -=======~---------------------========-   
+        -=======~                     ========-   
+        -=======~                     ========-   
+        -~~~~~-                       ~~~~~      
+                          #%%%%%%%%-                   
+                          #%%%%%%%%                    
+                          #%%%%%%%#                    
+                          #%%%%%%%#                    
+                          #%%%%%%%#            -~      
+        +#~               *########           *###-    
+        +######:          *########         =#######+  
+        +#############################################~
+        +#######*         *########         ~#########*
+        =#######*         *#######*         ~########  
+        =#######*         *#######*         ~########  
+        =********         *********         ~********  
+        =*******+         +********         ~********  
+        =*******+         +********         ~********  
+        =*******+         +********         :********  
+        =*******+         +*******+         :********  
+        =*******+         +*******+         :********  
+        =++++++++:::::::::+++++++++:::::::::=++++++++  
+        ~++++++++         +++++++++         :++++++++  
+        ~+++++++=         =++++++++         :++++++++  
+        ~+++++++=         =++++++++         :++++++++  
+        ~+++++++=         =++++++++         :++++++++  
+        ~+++++++=         =+++++++=         :++++++++  
+        ~+++++++=         =+++++++=         :++++++++  
+        ~========         =========         :========  
+        ~========         =========         :========  
+        ~=======~         ~========         :========  
+        ~============================================  
+        :=======~                           -========  
+        :=======~                           -========  
+        :~~~~~:                             -~~~~~-    
+
+
+            </pre>
+            
+        </div>
+        
+        <div class="main-container" style="background-color: white;">
+            
+            <div>
+                <div style="margin-bottom: 5rem;">
+                    <h2 id="about">About me:</h2>
+                    <p>
+                        I'm a current student at the Georgia Institute of Technology, 
+                        where my studies focus on the AI and Graphics applications of CS. 
+                        In addition to this focus, I find learning algorithms and computer organization
+                        to be incredibly interesting, so I enjoy spending time in those areas as well.
+                    </p>
+                    <p>
+                        I like to work in the creative sphere, since I believe that creating something in 
+                        one's area of interest is the greatest expression of acquired knowledge. 
+                        Most of my projects until now have been in game development, although I try to 
+                        branch out often and learn about other areas like IT and web development.
+                    </p>
+                    <p>
+                        One of my core beliefs is that there is a careful balance to be struck between
+                        freedom and structure, since an ambitious, beautiful idea requires strong direction
+                        and purpose, a well defined form, to truly flourish.
+                        I try to find that balance in my work through thorough planning
+                        and frequently reassessing the path that my development should take
+                        alongside those working with me.
+                    </p>
+                </div> 
+                
+            </div>    
+        </div>
+        <div class="main-container" style="background-color: white;">
+            <div class="grid-container">
+                <div style="grid-column-start: 1; grid-column-end: 2; grid-row-start: 1;">
+                    <h2 id="projects">Projects:</h2>
+                </div>
+                <div style="grid-column-start: 1; grid-column-end: 1; grid-row-start: 2;">
+                    <img src="./images/blokita.png" alt="Blokita"/>
+                    <h4><a href="https://github.com/chr1ce/lift-simple" target="_blank" class="h">Lift Simple</a><h4>
+                    <p>A command-line emulating lift tracking and recommendation
+                        tool created in C using the ncurses library.
+                    </p>
+                </div>
+                <div style="grid-column-start: 2; grid-column-end: 2; grid-row-start: 2;">
+                    <img src="./images/bloy.png" alt="Bloy"/>
+                    <h4><a href="https://devpost.com/software/byte-the-bullet" target="_blank" class="h">Byte the Bullet</a></h4>
+                    <p>A fast-paced, educational, and collaborative coding game created for HackGT X.</p>
+                </div>
+                <div style="grid-column-start: 1; grid-column-end: 1; grid-row-start: 3;">
+                    <img src="./images/blojika.png" alt="Blojika"/>
+                    <h4><a href="https://github.com/chr1ce/frieren-dungeon" target="_blank" class="h">Frieren Dungeon</a></h4>
+                    <p>A simple game created in C for the mGBA emulator,
+                        with custom graphics.
+                    </p>
+                </div>
+                <div style="grid-column-start: 2; grid-column-end: 2; grid-row-start: 3;">
+                    <img src="./images/blobcchi.png" alt="Blobcchi"/>
+                    <h4><a href="https://v3.globalgamejam.org/2023/games/bocchi-slug-6" target="_blank" class="h">Bocchi the Slug!</a><h4>
+                    <p>A platformer with unique movement mechanics and a 
+                        custom in-game map creator and editor, starring Bocchi!
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div id="footer" class="footer">
+            <ul>
+                <li class="h3" style="font-weight: bold;">
+                    <a href="https://github.com/chr1ce" target="_blank">[github]</a>
+                </li>
+                <li class="h3" style="font-weight: bold;">
+                    <a href="mailto:chris.hyde.w@gmail.com">
+                        send an email
+                    </a>    
+                </li>
+            </ul>
+        </div>
+
+    </body>
+
+</html>
