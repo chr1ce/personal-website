@@ -179,7 +179,7 @@ a.h:active {
 .entry-child {
     height: fit-content;
     margin: 5vh;
-    padding: 8px;
+    padding: 2vw;
     justify-content: center;
     align-items: center;
 }
