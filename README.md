@@ -7,7 +7,8 @@ Currently hosted through GitHub Pages.
 ### Dependencies
 
 + three.js library (3D animation)
-+ Vite for local testing and the final build in ./dist
++ Node.js
++ Vite for local testing and building
 
 ### TODO:
 
