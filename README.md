@@ -15,5 +15,5 @@ Currently hosted through GitHub Pages.
 + Phone screen compatibility (ascii art too large for phones)
 + More unique animation
 + Blender model
-+ Backend/ Express.js/ Next.js/ ejs
++ Backend/ Express.js/ ejs
 + Dynamic blog page
