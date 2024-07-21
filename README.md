@@ -15,4 +15,5 @@ Currently hosted through GitHub Pages.
 + Phone screen compatibility (ascii art too large for phones)
 + More unique animation
 + Blender model
++ Cleaner file structure
 + Dynamic blog page
