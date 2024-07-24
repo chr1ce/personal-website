@@ -9,7 +9,7 @@ Currently hosted through GitHub Pages.
 + three.js library (3D animation)
 + Node.js
 + Vite for local testing and building
-+ Jekyll for ghpages static site
++ Jekyll for GitHub Pages static site
 
 ### TODO:
 
