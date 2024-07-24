@@ -171,15 +171,16 @@ a.h:active {
     width: 70vw;
     height: fit-content;
     margin: 5vw;
-    padding: 2vw;
+    padding: 2rem;
     justify-content: center;
     align-items: center;
+    border-radius: 10px;
     background-color: rgb(211, 234, 255);
 }
 .entry-child {
     height: fit-content;
     margin: 5vh;
-    padding: 2vw;
+    padding: 2rem;
     justify-content: center;
     align-items: center;
 }
