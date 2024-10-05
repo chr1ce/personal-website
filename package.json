@@ -4,6 +4,10 @@
     "build": "vite build"
   },
   "devDependencies": {
-    "@types/node": "^20.14.10"
+    "@types/node": "^20.14.10",
+    "vite": "^5.4.8"
+  },
+  "dependencies": {
+    "three": "^0.169.0"
   }
 }
