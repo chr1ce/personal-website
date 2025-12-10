@@ -16,3 +16,5 @@ Currently hosted through GitHub Pages.
 + Phone screen compatibility (ascii art too large for phones)
 + More unique animation
 + Blender model
+
+Developer Note: /dist/ holds a Vite build, Jekyll runs this build
