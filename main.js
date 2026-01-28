@@ -28,7 +28,7 @@ const scene = new THREE.Scene();
 scene.background = new THREE.Color('rgb(230, 242, 255)')
 
 const radius = 0.2;  
-const detail = 1;  z
+const detail = 1;
 const geometry = new THREE.DodecahedronGeometry( radius, detail );
 const material = new THREE.MeshPhongMaterial({
 		color: "rgb(134, 173, 224)",
