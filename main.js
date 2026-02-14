@@ -1,5 +1,4 @@
 import * as THREE from 'three';
-import { OBJLoader } from 'three/addons/loaders/OBJLoader.js';
 
 // canvas creation and window resize handling
 
@@ -27,9 +26,6 @@ camera.position.x = 0;
 
 const scene = new THREE.Scene();
 scene.background = new THREE.Color('rgb(230, 242, 255)')
-
-// const loader = new OBJLoader();
-// const object = await loader.loadAsync( 'models/my_mesh.obj' );
 
 const radius = 0.2;  
 const detail = 1;
